@@ -1,0 +1,17 @@
+
+.container{
+    background-color: lightgreen;
+}
+
+.container .city{
+    width: 400px;
+}
+
+.container .day{
+    width: 198px;
+}
+
+.container .month{
+    width: 198px;
+    margin-top: 2px;
+}
