@@ -1,17 +1,55 @@
+body{
+    width: 100%;
+    overflow: hidden;
 
+}
 .container{
-    background-color: lightgreen;
+    
+    position: absolute;
+    top: 220px;
+    right: 100px;
+    
+}
+
+.check{
+    width: 400px;
+    margin-top: 10px;
+    background-color: rgb(114, 165, 114);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    
+}
+
+h1{
+    color: aquamarine;
+}
+b{
+    color: aquamarine;
+}
+
+td{
+    color: aquamarine;
 }
 
 .container .city{
     width: 400px;
+    border-radius: 5px;
 }
 
 .container .day{
     width: 198px;
+    border-radius: 5px;
 }
 
 .container .month{
     width: 198px;
     margin-top: 2px;
+    border-radius: 5px;
+}
+
+.container .table{
+    width: 600px;
+    position: absolute;
+    right: 350px;
 }
